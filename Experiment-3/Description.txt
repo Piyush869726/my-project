@@ -1,0 +1,146 @@
+Title:
+Admin Dashboard with Flexbox Layout and Theme Switching
+
+Objective:
+Create a professional admin dashboard using HTML and CSS Flexbox with:
+
+A header containing a title and dark mode toggle
+
+A sidebar for navigation
+
+A main content area with placeholder text
+
+A footer at the bottom
+Also implement a light/dark theme switch using CSS.
+
+FIELD: Header
+Requirement:
+Display the dashboard title and a Dark Mode toggle.
+
+Behavior:
+
+The title "Admin Dashboard" is always visible.
+
+The toggle changes the page theme between light and dark mode by adding the .dark-mode class.
+
+Valid Scenarios:
+
+Title is correct.
+
+Dark mode toggle works when clicked.
+
+FIELD: Sidebar Navigation
+Requirement:
+Contain navigation links to different dashboard sections.
+
+Behavior:
+
+Links are static.
+
+Sidebar stays on the left side of the page in all modes.
+
+Valid Scenarios:
+
+Links to Home, Users, and Settings are shown.
+
+Sidebar background changes between light and dark themes.
+
+FIELD: Content Area
+Requirement:
+Show a welcome message and placeholder text.
+
+Behavior:
+
+Uses flexible space beside the sidebar.
+
+Content adjusts colors based on the theme.
+
+Valid Scenarios:
+
+Displays "Welcome, Admin!" and sample text.
+
+Looks visually distinct from the sidebar.
+
+FIELD: Footer
+Requirement:
+Show footer details at the bottom of the page.
+
+Behavior:
+
+Always stays below the content.
+
+Changes background color depending on the theme.
+
+Valid Scenarios:
+
+Text reads "© 2025 Admin Panel".
+
+FORM STRUCTURE
+Requirement:
+Use a .container with Flexbox to arrange sidebar and content horizontally.
+
+Valid Structure:
+
+Header on top
+
+Container with Sidebar (left) and Main content (right)
+
+Footer at the bottom
+
+CSS STYLING: Overview
+1. body
+
+Removes default margins (margin: 0)
+
+Sets font to Arial for a clean look
+
+2. .header
+
+Green background (#4CAF50), white text
+
+Uses Flexbox to space title and toggle evenly
+
+3. .container
+
+Uses display: flex to arrange sidebar and content
+
+4. .sidebar
+
+Light mode: light gray background (#f2f2f2)
+
+Dark mode: dark gray background (#1e1e1e)
+
+Contains list-style removed links
+
+5. .main
+
+Fills remaining space (flex-grow: 1)
+
+Has padding for spacing
+
+Background changes in dark mode
+
+6. .footer
+
+Light mode: green (#6ab26c)
+
+Dark mode: dark gray (#222)
+
+Text centered and white
+
+7. .dark-mode
+
+Dark background (#121212)
+
+Light text
+
+Updates header, footer, sidebar, and main area styles
+
+Learning Outcomes:
+Learned to create a two-column layout using Flexbox.
+
+Practiced dark mode styling with CSS classes.
+
+Styled navigation links and made them distinct in both themes.
+
+Used Flexbox inside the header for element alignment.
