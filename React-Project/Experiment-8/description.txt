@@ -13,20 +13,6 @@ PROJECT: Library Management UI with Search, Add, and Remove Book Functionality
   d) This application serves as a strong foundation for understanding how to build data-driven UIs in React.
 
 
-3) Project File Structure:
-The project is organized into a modular structure, with each component responsible for a specific piece of the UI, making the code clean and scalable.
-
-    src/
-    ├── App.css                      # Global and component-specific styles
-    ├── App.jsx                      # Main application entry point
-    ├── main.jsx                     # Renders the React app to the DOM
-    └── components/
-        ├── LibraryManagement.jsx    # The main container holding state and logic
-        ├── SearchBar.jsx            # Component for the search input field
-        ├── AddBookForm.jsx          # Component for the new book submission form
-        ├── BookList.jsx             # Renders the list of books
-        └── BookItem.jsx             # Renders a single book item in the list
-
 
 4) Structure:
   React Components & State Management:

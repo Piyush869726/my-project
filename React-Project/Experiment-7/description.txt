@@ -14,16 +14,6 @@ PROJECT: ProductCard Component Using Props
     d) The UI is styled to be clean and modern, with hover effects on the cards to provide a better user experience.
 
 
-3) Project File Structure:
-    The project is organized with a clear and scalable structure, separating the main application logic from the reusable UI components.
-
-        src/
-        ├── App.css               # Contains all styling for the application
-        ├── App.jsx               # Main application component, holds product data
-        └── Components/
-            └── product_card.jsx  # Reusable component for displaying one product
-
-
 4) Structure:
     React Components and Data Flow:
         The application's architecture is centered on a parent component (App.jsx) that defines the data and a child component (ProductCard.jsx) that is responsible for displaying that data.

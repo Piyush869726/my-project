@@ -13,17 +13,6 @@ PROJECT: Person Class Hierarchy with Student and Teacher Subclasses
     d) This is a foundational concept crucial for building scalable and organized applications, where you can create reusable and extensible code structures.
 
 
-3) Project File Structure:
-    The project is organized with a standard Vite + React structure, keeping components separate for better maintainability.
-
-    src/
-    ├── App.css                      # Styling for all components
-    ├── App.jsx                      # Main application entry point
-    ├── main.jsx                     # Renders the React app to the DOM
-    └── components/
-        ├── ClassHierarchyDemo.jsx   # Contains class logic and main view
-        └── PersonCard.jsx           # Reusable component to display person data
-
 
 3) Structure:
     a) JavaScript Class Hierarchy:
