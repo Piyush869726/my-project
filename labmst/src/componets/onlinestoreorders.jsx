@@ -32,7 +32,7 @@ export default function App() {
     <div className="container">
       <h1>Online Store Orders</h1>
 
-      {/* ✅ Add Order Form */}
+      
       <form className="order-form" onSubmit={addOrder}>
         <h2>Add New Order</h2>
         <input
@@ -58,7 +58,7 @@ export default function App() {
         <button type="submit">Add Order</button>
       </form>
 
-      {/* ✅ Orders Table */}
+      
       <div className="orders-table">
         <h2>Current Orders</h2>
         <table>
